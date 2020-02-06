@@ -16,9 +16,9 @@ Also for window users run the redis-server.exe.
 
 First run Redis with the redis-server.exe then you must start each application independently with
 
-# watch mode
-
-\$ npm run start:dev
+```bash
+$ npm run start:dev
+```
 
 Then call from your Postman with a POST request this url http://localhost:3000/addName and pass a parameter <b>data</b> with a name.
 In result you will have to see in your postman a result phrase with the name that you provided.
